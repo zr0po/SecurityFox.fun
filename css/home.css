@@ -1,0 +1,52 @@
+.landing {
+  background-color: #121214;
+}
+.bg-custom{
+    background-color: #171717;
+}
+.gex{
+display: flex;
+    height: 100%;
+    width: 70%;
+    font-size: 28px;
+}
+
+.logo{
+  font-size: 65x;
+      background: linear-gradient(to right, #1FA2FF 0%, #12D8FA  51%, #1FA2FF  100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+
+     }
+
+body {
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+/* Общие стили для видео */
+.embed-responsive-16by9 {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 aspect ratio */
+    height: 0;
+    overflow: hidden;
+}
+
+.embed-responsive .embed-responsive-item,
+.embed-responsive embed,
+.embed-responsive iframe,
+.embed-responsive object,
+.embed-responsive video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+}
+
+/* Дополнительные стили для адаптивности на маленьких экранах */
+@media (max-width: 767px) {
+    .embed-responsive-16by9 {
+        padding-bottom: 75%; /* Измените соотношение для маленьких экранов, если нужно */
+    }
+}
